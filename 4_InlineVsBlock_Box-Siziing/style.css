@@ -1,0 +1,41 @@
+body {
+  padding: 20px;
+  margin: 30px;
+}
+
+.box {
+  height: 150px;
+  width: 200px;
+  border: 3px solid black;
+  /* margin: 500px; */
+  margin: 100px;
+  background-color: red;
+}
+
+.content-box {
+  box-sizing: content-box;
+  padding: 20px;
+  /* margin: 300px; */
+}
+
+.border-box {
+  box-sizing: border-box;
+  padding: 20px;
+  /* margin: 300px; */
+}
+
+.inline-element {
+  background-color: turquoise;
+  /* height: 200px; */
+  padding: 20px;
+}
+
+.block-element {
+  background-color: rgb(252, 252, 176);
+}
+
+.inline-block-element {
+  background-color: yellowgreen;
+  display: inline-block;
+  height: 200px;
+}
