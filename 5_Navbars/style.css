@@ -4,14 +4,17 @@ body {
   margin: 0;
 }
 .nav-container {
-  background-color: #393939;
+  /* background-color: #f4f4f4; */
   padding: 4px;
   /* justify-content: space-around; */
+  margin-bottom: 50px;
 }
 
 .nav1 {
   display: flex;
   justify-content: space-around;
+  background-color: #393939;
+  padding: 25px;
 }
 
 .nav1 li {
@@ -49,4 +52,55 @@ body {
   padding: 5px 15px;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.nav1 .login-btn:hover {
+  background-color: rgb(23, 197, 255);
+}
+
+.nav2 {
+  background-color: rgb(255, 247, 247);
+  width: 100px;
+  padding: 20px;
+  /* font-size: 16px; */
+}
+
+.nav2 li {
+  list-style: none;
+  margin-bottom: 20px;
+  /* background-color: red; */
+  /* padding: 0; */
+  /* margin: 0; */
+  /* padding: 5px 10px; */
+  /* border-color: red; */
+  /* border-bottom: 0.005px dotted rgb(68, 68, 68); */
+}
+
+.nav2 li:not(:last-child) {
+  padding: 5px 10px;
+  /* background-color: purple; */
+}
+
+.nav2 li:not(:last-child):hover {
+  background-color: bisque;
+}
+
+.nav2 li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+  /* background-color: rebeccapurple; */
+  width: 100%;
+  /* background-color: red; */
+}
+
+.nav2 .login-btn {
+  padding: 5px 10px;
+  width: 100%;
+  border: none;
+  background-color: bisque;
+  border-bottom: none;
+  cursor: pointer;
+  font-size: 16px;
 }
